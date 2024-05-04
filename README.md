@@ -7,7 +7,7 @@ This project has used Laravel 10, Laravel Breeze, Bootstrap, JQuery, Sweet Alert
 
 Follow some step:
 
-1. Clone this repository
+1. Clone this repository : https://github.com/mdjalalsk/Laravel-task-cw
 2. Install Composer Dependencies: Laravel uses Composer to manage its dependencies. Navigate to the root directory of your cloned Laravel project in the terminal and run: composer install
 
 3.You've to install npm because this project is used with Breeze .
