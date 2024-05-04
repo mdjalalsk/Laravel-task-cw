@@ -72,7 +72,7 @@
                                 Swal.fire('Validation Error', response.errors.thumbnail[0],
                                     'error');
                             } else {
-                                Swal.fire('Error', 'Failed to create project', 'error');
+                                Swal.fire('Error', 'Failed to create Post', 'error');
                             }
                         }
                         $('#postCreate').prop('disabled', false);
