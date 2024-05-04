@@ -51,9 +51,9 @@ class PostController extends Controller
 
         $project = BlogPost::create($data);
         if ($project) {
-            return response()->json(['success' => 'Project Created Successfully']);
+            return response()->json(['success' => 'Post Created Successfully']);
         } else {
-            return response()->json(['errors' => 'Failed to create project'], 422);
+            return response()->json(['errors' => 'Failed to create Post'], 422);
         }
     }
     public function edit($id)
@@ -115,9 +115,9 @@ class PostController extends Controller
 
         $result = $post->update($request->except('thumbnail', 'cover'));
         if ($result) {
-            return response()->json(['success' => 'post Updated Successfully']);
+            return response()->json(['success' => 'Post Updated Successfully']);
         } else {
-            return response()->json(['errors' => 'Failed to update project'], 422);
+            return response()->json(['errors' => 'Failed to update Project'], 422);
         }
     }
 
@@ -133,9 +133,9 @@ class PostController extends Controller
         $project = BlogPost::find($id);
         $result = $project->delete();
         if ($result) {
-            return response()->json(['success' => 'Project Deleted Successfully']);
+            return response()->json(['success' => 'Post Deleted Successfully']);
         } else {
-            return response()->json(['errors' => 'Failed to delete Project'], 422);
+            return response()->json(['errors' => 'Failed to delete Post'], 422);
         }
     }
 
