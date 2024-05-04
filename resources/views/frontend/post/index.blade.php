@@ -84,7 +84,7 @@
 
                 Swal.fire({
                     title: 'Confirm Delete',
-                    text: 'Are you sure you want to delete this category?',
+                    text: 'Are you sure you want to delete this post?',
                     icon: 'warning',
                     showCancelButton: true,
                     confirmButtonColor: '#d33',
