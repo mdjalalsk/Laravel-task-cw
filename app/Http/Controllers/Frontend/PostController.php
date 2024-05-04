@@ -74,7 +74,7 @@ class PostController extends Controller
 
         $post = BlogPost::find($id);
         if (!$post) {
-            return response()->json(['errors' => 'Project not found'], 404);
+            return response()->json(['errors' => 'post not found'], 404);
         }
         // Handle thumbnail update
         if ($request->hasFile('thumbnail')) {
